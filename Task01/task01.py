@@ -12,7 +12,7 @@
 
 from random import choice
 calc_acc = [i for i in range(1,11)]
-rand_coeff = int(choice(calc_acc))
+rand_coeff = choice(calc_acc)
 
 # ряд Нилаканта
 # π = 3 + 4/(2*3*4) - 4/(4*5*6) + 4/(6*7*8) - 4/(8*9*10) + 4/(10*11*12) - (4/(12*13*14) ...
